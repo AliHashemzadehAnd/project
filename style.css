@@ -1,0 +1,18 @@
+
+body {
+    padding: 20rem;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 10px solid yellow;
+    border-right-color: darkgreen;
+}
+
+.box:hover {
+    transform-origin: top left 45px;
+    transform: rotate(45deg);
+}
+

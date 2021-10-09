@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Vazir-regular";
+    src: url("Vazir-Regular.eot") format("embedded-opentype"),
+    url("Vazir-Regular.woff2") format("woff2"),
+    url("Vazir-Regular.woff") format("woff"),
+    url("Vazir-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Vazir-bold";
+    src: url("Vazir-Bold.eot") format("embedded-opentype"),
+    url("Vazir-bold.woff2") format("woff2"),
+    url("Vazir-bold.woff") format("woff"),
+    url("Vazir-bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+html{
+    font-size: 100%;
+}
+
+* {
+    text-align: justify;
+    direction: rtl;
+    font-family: Vazir-regular, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Vazir-bold, sans-serif;
+}
